@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Anketa</title>
+</head>
+<body>
+<form action="anketa" method="POST">
+    Name: <input name="username" />
+    <br><br>
+    Surname: <input name="usersurname" />
+    <br><br>
+    Age: <input name="userage" />
+    <br><br>
+    Gender: <input type="radio" name="gender" value="female" checked />Female
+    <input type="radio" name="gender" value="male" />Male
+    <br><br>
+    English proficiency: <select name="English proficiency">
+    <option>beginner</option>
+    <option>elementary</option>
+    <option>intermediate</option>
+    <option>upper intermediate</option>
+    <option>advanced</option>
+    <option>proficiency</option>
+    </select>
+    <br><br>
+    Programming language:<select name="Programming language">
+    <option>Java</option>
+    <option>PHP</option>
+    <option>C#</option>
+    <option>Python</option>
+    <option>JavaScript</option>
+    <option>Kotlin</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
